@@ -1,5 +1,5 @@
 import { observable, computed } from 'mobx'
-import { getId } from '../../utils'
+import { getId } from '../utils'
 
 export class Todo {
   id = getId()
