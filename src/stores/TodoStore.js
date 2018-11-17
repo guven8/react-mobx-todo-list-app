@@ -16,8 +16,8 @@ export class Todo {
     this.completed = !this.completed
   }
   destroy() {
-		this.store.todos.remove(this);
-	}
+    this.store.todos.remove(this);
+  }
 }
 
 export class TodoList {

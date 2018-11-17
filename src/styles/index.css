@@ -78,10 +78,16 @@ body {
   border-width: 0;
   font-size: 1em;
   padding: 10px;
+  outline: none;
 }
 
 .todo-app__edit-form-input.editing {
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.todo-app__edit-form-input.completed {
+  text-decoration: line-through;
+  font-style: italic;
 }
 
 .todo-app__edit-form-input {
